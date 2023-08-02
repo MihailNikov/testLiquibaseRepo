@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset your.name:1 labels:integration,qa,production context:example-context
+--changeset your.name:2 contextFilter:integration,qa,production context:example-context
 --comment: creating the person table for important reasons
 create table testdb1.person (
     id int primary key auto_increment not null,
